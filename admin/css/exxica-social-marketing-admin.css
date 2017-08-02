@@ -1,0 +1,184 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+a.submitdelete {
+	color: red;
+}
+.wrapping {
+	padding: 5px;
+}
+.normal_text {
+	font-weight: normal;
+	color: black;
+}
+.bold_text {
+	font-weight: bold;
+}
+.red_text {
+	color: red;
+}
+table#paired_accounts {
+	width: 50%;
+	background-color: white;
+	border: thin solid #ddd;
+}
+	table#paired_accounts thead {
+		background-color:#f9f9f9;
+	}
+
+	table#paired_accounts th, 
+	table#paired_accounts td {
+		text-align:left;
+	}
+	table#paired_accounts tr.odd {
+
+	}
+	table#paired_accounts tr.even {
+		
+	}
+
+.sm-item {
+	cursor: pointer;
+}
+.sm-item:hover {
+	background-color: #e0e0e0;
+	color: #000;
+}
+#sm-table tr:hover {
+	background-color: #eee;
+	color: #000;
+}
+#sm-table tr.odd {
+	background-color: #f9f9f9;
+	color: #000;
+}
+#sm-table tr.even {
+	background-color: #fff;
+	color: #000;
+}
+.close_to_publish, 
+.close_to_publish:hover {
+	background-color: lightyellow;
+	color: #000;
+}
+.past_publish, 
+.past_publish:hover {
+	background-color: #eee;
+	color: #aaa;
+}
+#sm-table tr.selected, 
+#sm-table tr.selected:hover {
+	background-color: #eee;
+	color: #000;
+}
+#sm-table label {
+	font-weight: bold;
+}
+.esm-frame-title {
+	position: absolute;
+	top: 0;
+	left: 210px;
+	right: 10px;
+	height: 50px;
+	z-index: 200;
+}
+.esm-frame-content {
+	position: absolute;
+	top: 120px;
+	left: 200px;
+	right: 10px;
+	bottom: 63px;
+	height: auto;
+	width: auto;
+	margin: 0;
+	overflow: auto;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+.esm-modal-close span.esm-modal-icon {
+	display: block;
+	margin-top: 5px;
+	width: 30px;
+	height: 15px;
+	background-image: none;
+	text-align: center;
+}
+.esm-modal-icon {
+	background-repeat: no-repeat;
+}
+.esm-modal * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.esm-frame {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.esm-menu > a {
+	display: block;
+	position: relative;
+	padding: 8px 20px;
+	margin: 0;
+	line-height: 18px;
+	font-size: 14px;
+	color: #0074a2;
+	text-decoration: none;
+}
+.esm-menu > span {
+	display: block;
+	position: relative;
+	padding: 8px 20px;
+	margin: 0;
+	line-height: 18px;
+	font-size: 14px;
+	color: #555;
+	text-decoration: none;
+}
+#num-char-validation {
+	position:relative;
+	float:right;
+}
+.error {
+	background-color: #fdd !important;
+}
+span#error {
+	color: #f00 !important;
+}
+fieldset.setting-fieldset {
+	width: 97%;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+fieldset.setting-fieldset legend {
+	font-size: 1.1em;
+	font-weight: bold;
+	background-color: #f9f9f9;
+	color: #000;
+	border: 1px solid #ddd;
+}
+.exxica-dashicons {
+	text-decoration: none;
+}
+.paired_account_row:hover {
+	background-color: #ddd;
+}
+
+@media screen and (min-width: 1024px ) {
+	fieldset.setting-fieldset {
+		width: 50%;
+	}
+}
+input[type="text"].exxica-text {
+	width: auto !important;
+}
+select.exxica-select {
+	width: auto !important;
+	vertical-align: top !important;
+}
+div#esm-frame-toolbar div.media-toolbar-primary {
+	max-width: 100% !important;
+}
